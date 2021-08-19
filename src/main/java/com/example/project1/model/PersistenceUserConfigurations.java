@@ -25,7 +25,7 @@ import static com.example.project1.model.PersistenceUserConfigurations.*;
         transactionManagerRef = "userTransactionManager"
 )
 public class PersistenceUserConfigurations {
-    public static final String USER_PACKAGE ="com.example.project1.service.imp";
+    public static final String USER_PACKAGE ="com.example.project1.model";
     @Autowired
     private Environment env;
 
